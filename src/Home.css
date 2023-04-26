@@ -1,0 +1,27 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--color-bg);
+}
+
+.text {
+  color: var(--color-text);
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  width: 50px;
+  height: 20px;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 8px var(--color-text);
+}

@@ -1,0 +1,13 @@
+:root {
+  --color-bg: #f5f3ef;
+  --color-text: #353332;
+}
+
+html.dark {
+  --color-bg: #19191c;
+  --color-text: #b0b0b2;
+}
+
+* {
+  margin: 0;
+}
